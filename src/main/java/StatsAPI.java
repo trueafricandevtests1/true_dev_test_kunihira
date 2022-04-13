@@ -22,7 +22,7 @@ public class StatsAPI {
 
             List<JSONObject> uniqueWithCount = listUniqueRecipeOccurrences(rawArrayList);
 
-            String[] filterList = {"Potato", "Veggies", "Mushroom"};
+            String[] filterList = {"Potato", "Veggie", "Mushroom"};
 
             JSONObject finalJson = new JSONObject();
             finalJson.put("unique_recipe_count", uniqueWithCount.size());
